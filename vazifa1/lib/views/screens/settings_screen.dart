@@ -197,11 +197,13 @@ class _SettingsScreenState extends State<SettingsScreen> {
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
-                  Text(
-                    'Text Rangini tanlang: ',
-                    style: TextStyle(
-                        fontSize: AppConstants.textSize,
-                        color: AppConstants.textColor),
+                  Expanded(
+                    child: Text(
+                      'Text Rangini tanlang: ',
+                      style: TextStyle(
+                          fontSize: AppConstants.textSize,
+                          color: AppConstants.textColor),
+                    ),
                   ),
                   DropdownButton(
                     borderRadius: BorderRadius.circular(20),
@@ -262,11 +264,13 @@ class _SettingsScreenState extends State<SettingsScreen> {
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
-                  Text(
-                    'Interfeys Rangini tanlang: ',
-                    style: TextStyle(
-                        fontSize: AppConstants.textSize,
-                        color: AppConstants.textColor),
+                  Expanded(
+                    child: Text(
+                      'Interfeys Rangini tanlang: ',
+                      style: TextStyle(
+                          fontSize: AppConstants.textSize,
+                          color: AppConstants.textColor),
+                    ),
                   ),
                   DropdownButton(
                     borderRadius: BorderRadius.circular(20),
